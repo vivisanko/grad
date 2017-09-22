@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+</head>
+<body>
+<form method="post" name = "entrance" id="entrance">
+    <!--action="/logon"-->
+    <div class="loginpass">
+        <label><b>Логин</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Пароль</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" id="enter">Войти</button>
+        <input type="checkbox" id = 'remember' checked="checked"><span>Запомнить</span>
+        <!--<span class="psw">Забыли <a href="#">пароль?</a></span>-->
+    </div>
+
+    <div class="loginpass" id="mistake">
+        <!--<button type="button" class="registratebtn">Регистрация</button>-->
+    </div>
+</form>
+
+
+<div class="main">
+    <nav>
+        <ul id="menu">
+            <li><a class="knob" href="#profile">Профиль</a></li>
+            <li><a class="knob" href="#scores">Счёт</a></li>
+            <li><a class="knob" href="#rating">Рейтинг</a></li>
+            <li><a class="knob" href="#theory">Техника скалолазания</a></li>
+            <li><a class="knob" href="#route">Маршруты</a></li>
+            <li><a class="knob" href="#passedroute">Пройденные маршруты</a></li>
+            <li><a class="knob" href="#randomroute">Случайный маршрут</a></li>
+            <li><a class="knob" href="#exit" id="exit">Выход</a></li>
+            <!--<li><a class="knob" href="#notification">Уведомления</a></li>-->
+            <!--<li><a class="knob" href="#friends">Друзья</a></li>-->
+            <!--<li><a class="knob" href="#settings">Настройки</a></li>-->
+            <!--<li><a class="knob" href="#history">История</a></li>-->
+
+
+
+
+        </ul>
+    </nav>
+    <div class="content" id = "performance"></div>
+    <!--<pre id = "output" style="color: white">что-то</pre>-->
+</div>
+<script src="javascripts/storage.js"></script>
+<script src="javascripts/entrance.js"></script>
+<script src="javascripts/converter.js"></script>
+<script src="javascripts/requests.js"></script>
+<script src="javascripts/place.js"></script>
+<script src="javascripts/profile.js"></script>
+<script src="javascripts/route.js"></script>
+<script src="javascripts/meetup.js"></script>
+<script src="javascripts/js.js"></script>
+<!--<script src="javascripts/inserts.js"></script>-->
+<!--<script src="javascripts/fetchup.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,143 @@
+[
+  {
+    "number": 12,
+    "type": "жёлтые",
+    "difficulty": [
+      "жёлтые",
+      "4",
+      "V0",
+      "B1"
+    ],
+    "group": "ростовой",
+    "rank": 10,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 34,
+    "type": "жёлтые",
+    "difficulty": [
+      "жёлтые",
+      "4",
+      "V0",
+      "B1"
+    ],
+    "group": "на равновесие",
+    "rank": 15,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 21,
+    "type": "зелёные",
+    "difficulty": [
+      "зелёные",
+      "4+",
+      "V0+",
+      "B2"
+    ],
+    "group": "силовой",
+    "rank": 20,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 33,
+    "type": "зелёные",
+    "difficulty": [
+      "зелёные",
+      "4+",
+      "V0+",
+      "B2"
+    ],
+    "group": "на равновесие",
+    "rank": 25,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 56,
+    "type": "красные",
+    "difficulty": [
+      "красные",
+      "5 / 6a / 6a+",
+      "V1 / V2 / V3",
+      "B3 / B4"
+    ],
+    "group": "силовой",
+    "rank": 30,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 38,
+    "type": "красные",
+    "difficulty": [
+      "красные",
+      "5 / 6a / 6a+",
+      "V1 / V2 / V3",
+      "B3 / B4"
+    ],
+    "group": "на равновесие",
+    "rank": 35,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 52,
+    "type": "синие",
+    "difficulty": [
+      "синие",
+      "6b / 6c",
+      "V4 / V5 / V6",
+      "B5 / B6 / B7"
+    ],
+    "group": "на равновесие",
+    "rank": 40,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 83,
+    "type": "синие",
+    "difficulty": [
+      "синие",
+      "6b / 6c",
+      "V4 / V5 / V6",
+      "B5 / B6 / B7"
+    ],
+    "group": "прыжковый",
+    "rank": 45,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 6,
+    "type": "чёрные",
+    "difficulty": [
+      "чёрные",
+      "7a / 7a+ / 7b",
+      "V7 / V8",
+      "B8"
+    ],
+    "group": "прыжковый",
+    "rank": 50,
+    "valid": true,
+    "amount": 0
+  },
+  {
+    "number": 11,
+    "type": "чёрные",
+    "difficulty": [
+      "чёрные",
+      "7a / 7a+ / 7b",
+      "V7 / V8",
+      "B8"
+    ],
+    "group": "на равновесие",
+    "rank": 55,
+    "valid": true,
+    "amount": 0
+  }
+]
+

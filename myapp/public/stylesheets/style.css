@@ -1,0 +1,134 @@
+@media (max-width: 319px) {
+    nav {
+        margin-top: 100vh;
+    }
+
+    form {
+        left: 10vw;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+    nav {
+        margin-top: 100vh;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    nav {
+        margin-top: 10vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        margin-top: 10vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        margin-top: 10vh;
+    }
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-color: rgb(12, 46, 62);
+    background-image: url(../images/stones.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: top center;
+}
+
+form {
+    position: absolute;
+    width: 160px;
+    top: 0;
+    right: 160px;
+    /*display: none;*/
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+nav {
+    /*display: none;*/
+    /*margin-top: 10vh;*/
+    width: 250px;
+}
+
+.content {
+    width: calc(100vw - 250px);
+}
+
+.knob {
+    border: 3px solid #061d48;
+    display: inline-block;
+    padding: 5px 50px;
+    width: 100px;
+   text-decoration: none;
+    color: #fff;
+}
+
+.knob:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to bottom, rgb(182, 182, 182), #010101);
+    color: #061d48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.loginpass {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    width: 200px;
+}
+
+.loginpass label b, span {
+    color: #fff;
+}
+
+.loginpass .psw a {
+    color: #fff;
+}
+
+.loginpass button {
+    color: rgb(1, 1, 1);
+}
+
+.loginpass input[placeholder] {
+    color: #061d48;
+}
+.mistake{
+    float: right;
+    text-align: left;
+    color: #fff;
+    width: 160px;
+    margin-right: 10px;
+    margin-top: 50vh;
+
+
+}
+span {
+    color: #ffffff;
+}
+#performance {
+    position: absolute;
+    color: #ffffff;
+    width: 500px;
+    top: 20vh;
+    right: 0px;
+
+}
